@@ -1,0 +1,11 @@
+@ServerUrl = http://localhost:5013
+
+POST {{ServerUrl}}/api/contact
+Content-Type: application/json
+
+{
+  "name": "John Smith",
+  "email": "john@example.de",
+  "company": "Example GmbH",
+  "message": "We need help modernizing our existing ASP.NET application."
+}
